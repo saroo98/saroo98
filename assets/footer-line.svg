@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 90" role="img" aria-labelledby="title desc">
+  <title id="title">Signal console footer line</title>
+  <desc id="desc">A thin graphite console footer line with small amber and olive signal markers.</desc>
+  <defs>
+    <style>
+      .base{stroke:#37464f;stroke-width:1.2;fill:none}
+      .amber{stroke:#b47a2b;stroke-width:1.4;fill:none}
+      .olive{stroke:#92a85a;stroke-width:1.4;fill:none}
+      .copy{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.6px;fill:#7f8c94}
+    </style>
+  </defs>
+  <rect width="1400" height="90" rx="10" fill="#071014"/>
+  <path d="M36 45H420l22 18h188l18-18h704" class="base"/>
+  <path d="M36 45h142M442 63h82M648 45h126M1216 45h136" class="amber"/>
+  <path d="M214 45h36M560 63h28M848 45h42M1132 45h46" class="olive"/>
+  <circle cx="420" cy="45" r="4" fill="#b47a2b"/>
+  <circle cx="648" cy="45" r="4" fill="#92a85a"/>
+  <circle cx="1216" cy="45" r="4" fill="#b47a2b"/>
+  <text x="36" y="28" class="copy">READ. VERIFY. PATCH. SHIP.</text>
+  <text x="1190" y="70" class="copy">SIGNAL CONSOLE</text>
+</svg>

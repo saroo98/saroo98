@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Saro Signal Console light banner</title>
+  <desc id="desc">A light off-white GitHub profile banner with graphite engineering panels, radar lines, and restrained olive and amber signal accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ed"/>
+      <stop offset="0.52" stop-color="#ece8df"/>
+      <stop offset="1" stop-color="#f8f7f2"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#ebe6dc"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#c9c2b5" stroke-width="1" opacity="0.55"/>
+      <path d="M14 0V28M0 14H28" fill="none" stroke="#ddd6c9" stroke-width="1" opacity="0.42"/>
+    </pattern>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8d9187" opacity="0.55"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#7b7466" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .label{font:700 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px;fill:#172126}
+      .small{font:600 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px;fill:#475057}
+      .micro{font:600 10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.2px;fill:#6c746e}
+      .line{stroke:#6c777a;stroke-width:1.1;fill:none;opacity:.76}
+      .thin{stroke:#9aa09b;stroke-width:1;fill:none;opacity:.72}
+      .amber{stroke:#a56818;stroke-width:1.6;fill:none}
+      .olive{stroke:#6f843b;stroke-width:1.7;fill:none}
+      .amber-fill{fill:#a56818}
+      .olive-fill{fill:#6f843b}
+      .muted-fill{fill:#9aa09b}
+    </style>
+  </defs>
+
+  <rect width="1400" height="520" rx="18" fill="url(#bg)"/>
+  <rect width="1400" height="520" rx="18" fill="url(#grid)" opacity="0.48"/>
+  <rect x="20" y="20" width="1360" height="480" rx="14" fill="none" stroke="#b8b0a4"/>
+
+  <g opacity="0.92">
+    <rect x="20" y="20" width="1360" height="46" rx="14" fill="#fffdf8"/>
+    <path d="M20 66H1380" class="line"/>
+    <circle cx="51" cy="43" r="12" fill="#172126"/>
+    <path d="M47 45c-5-5-2-13 5-13 2 0 4 1 5 2 2-1 3-2 6-2 6 0 9 8 4 13 1 4-2 7-6 8v-7c0-2-1-4-3-4h-8c-2 0-3 2-3 4v7c-4-1-6-4-5-8z" fill="#fffdf8"/>
+    <rect x="106" y="35" width="74" height="10" rx="5" class="muted-fill" opacity=".7"/>
+    <rect x="206" y="35" width="108" height="10" rx="5" class="muted-fill" opacity=".7"/>
+    <rect x="342" y="35" width="40" height="10" rx="5" class="muted-fill" opacity=".7"/>
+    <rect x="1096" y="28" width="250" height="30" rx="6" fill="#f7f4ed" stroke="#8d9187"/>
+    <circle cx="1118" cy="43" r="6" fill="none" stroke="#606b70"/>
+    <path d="M1123 48l8 8" stroke="#606b70" stroke-width="1.4"/>
+    <path d="M1292 43h40M1312 23v40" class="thin" opacity=".55"/>
+  </g>
+
+  <g transform="translate(34 88)">
+    <circle cx="112" cy="96" r="86" fill="#f2eee5" stroke="#6f843b" stroke-width="1.6"/>
+    <circle cx="112" cy="96" r="62" fill="none" stroke="#c0b8ab" stroke-dasharray="2 7"/>
+    <circle cx="112" cy="96" r="36" fill="none" stroke="#d2cabd" stroke-dasharray="10 6"/>
+    <path d="M72 130c18-46 63-46 82 0" fill="#d7d1c5" opacity=".9"/>
+    <circle cx="112" cy="86" r="25" fill="#c2bbb0"/>
+    <path d="M63 165c26 20 74 22 102 0" class="thin"/>
+    <circle cx="178" cy="158" r="20" fill="#f2eee5" stroke="#6f843b" stroke-width="2"/>
+    <circle cx="178" cy="158" r="8" class="olive-fill"/>
+
+    <text x="0" y="238" class="label">SARO</text>
+    <text x="0" y="263" class="small">DEFENSIVE BUILDER</text>
+    <rect x="0" y="284" width="164" height="8" rx="4" fill="#b9b2a8"/>
+    <rect x="0" y="302" width="118" height="8" rx="4" fill="#6f843b" opacity=".78"/>
+    <rect x="0" y="322" width="218" height="1" fill="#c6beb2"/>
+    <text x="26" y="352" class="small">AUTH BOUNDARIES</text>
+    <text x="26" y="382" class="small">REPEATABLE CHECKS</text>
+    <text x="26" y="412" class="small">SOURCE-BACKED CLAIMS</text>
+    <circle cx="8" cy="348" r="4" fill="none" stroke="#6f843b"/>
+    <circle cx="8" cy="378" r="4" fill="none" stroke="#6f843b"/>
+    <circle cx="8" cy="408" r="4" fill="none" stroke="#6f843b"/>
+  </g>
+
+  <path d="M292 66V500" class="line"/>
+
+  <g transform="translate(332 98)" filter="url(#soft)">
+    <rect x="0" y="0" width="1008" height="304" rx="10" fill="url(#panel)" stroke="#8f9692"/>
+    <rect x="18" y="20" width="972" height="264" rx="4" fill="#f8f5ef" stroke="#c4bdb0"/>
+    <rect x="18" y="20" width="972" height="264" rx="4" fill="url(#grid)" opacity=".48"/>
+
+    <path d="M235 20c-63 58-94 126-93 205M308 20c-72 68-109 136-108 220M745 20c71 56 111 129 116 221M805 20c76 62 114 137 117 220" class="amber"/>
+    <circle cx="512" cy="152" r="126" class="thin"/>
+    <circle cx="512" cy="152" r="88" class="thin" stroke-dasharray="2 6"/>
+    <circle cx="512" cy="152" r="176" class="thin"/>
+    <path d="M512 20V100M512 204v80M380 152H18M662 152h328" class="thin"/>
+    <path d="M610 72l60 0 24-24M705 96l70 0 24 24 99 0M226 258h128l24-24h152l18-18" class="amber"/>
+    <path d="M760 200l54-54 80 0 28-28h68" class="line"/>
+    <circle cx="426" cy="86" r="4" class="muted-fill"/>
+    <circle cx="635" cy="64" r="4" class="muted-fill"/>
+    <circle cx="700" cy="220" r="4" class="muted-fill"/>
+    <circle cx="820" cy="174" r="4" class="muted-fill"/>
+    <path d="M258 120l38-40M314 216l-36 42M786 82l36 86" class="line"/>
+
+    <rect x="810" y="58" width="148" height="74" rx="8" fill="#f6f2ea" stroke="#77817d"/>
+    <rect x="810" y="156" width="148" height="92" rx="8" fill="#f6f2ea" stroke="#77817d"/>
+    <path d="M828 228h20v8h-20zM854 228h16v8h-16zM876 228h7v8h-7z" fill="#a56818"/>
+    <rect x="36" y="208" width="120" height="58" fill="#f6f2ea" stroke="#b9b1a5"/>
+    <path d="M44 238l10 12 10-8 11 16 13-26 12 18 10-7 10 11 14-20" class="amber"/>
+    <path d="M36 58h128M36 97h204M36 136h242" class="thin"/>
+    <text x="34" y="38" class="micro">SIGNAL MAP / LOCAL ASSETS</text>
+    <text x="836" y="270" class="micro">NO THIRD-PARTY WIDGETS</text>
+  </g>
+
+  <g transform="translate(332 424)">
+    <path d="M0 0h1008" class="line"/>
+    <text x="0" y="34" class="small">READ</text>
+    <text x="156" y="34" class="small">VERIFY</text>
+    <text x="342" y="34" class="small">PATCH</text>
+    <text x="516" y="34" class="small">DOCUMENT</text>
+    <text x="746" y="34" class="small">SHIP</text>
+    <path d="M48 29h80M224 29h90M402 29h78M606 29h112M790 29h86" stroke="#bbb3a8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M48 29h36M224 29h48M402 29h31M606 29h58M790 29h38" stroke="#6f843b" stroke-width="8" stroke-linecap="round" opacity=".72"/>
+  </g>
+</svg>

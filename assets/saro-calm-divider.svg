@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="72" viewBox="0 0 1100 72" role="img" aria-label="Minimal signal line divider">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#233034"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#071012" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#071012"/>
+      <stop offset="0.82" stop-color="#071012"/>
+      <stop offset="1" stop-color="#071012" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="72" rx="18" fill="url(#fade)"/>
+  <rect x="24" y="12" width="1052" height="48" rx="14" fill="url(#dots)" opacity="0.72"/>
+  <path d="M42 36H220L244 24H348L372 36H522" fill="none" stroke="#2A383A" stroke-width="1.4"/>
+  <path d="M578 36H726L750 48H858L882 36H1058" fill="none" stroke="#2A383A" stroke-width="1.4"/>
+  <path d="M252 24H343" fill="none" stroke="#B9832F" stroke-width="1.4"/>
+  <path d="M758 48H852" fill="none" stroke="#91A35F" stroke-width="1.4"/>
+  <circle cx="546" cy="36" r="16" fill="none" stroke="#2A383A" stroke-width="1.2"/>
+  <circle cx="546" cy="36" r="7" fill="none" stroke="#91A35F" stroke-width="1.3"/>
+  <circle cx="546" cy="36" r="2.8" fill="#B9832F">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="244" cy="24" r="3.4" fill="#B9832F"/>
+  <circle cx="858" cy="48" r="3.4" fill="#91A35F"/>
+  <path d="M30 21V14H72" fill="none" stroke="#2A383A" stroke-width="1.2"/>
+  <path d="M1070 51V58H1028" fill="none" stroke="#2A383A" stroke-width="1.2"/>
+</svg>

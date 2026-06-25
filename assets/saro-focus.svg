@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="310" viewBox="0 0 1120 310" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus</title>
+  <desc id="desc">Small tools, defensible notes, and durable surfaces.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%"><stop offset="0%" stop-color="#172554"/><stop offset="52%" stop-color="#0f172a"/><stop offset="100%" stop-color="#020617"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#7dd3fc" stroke-opacity=".045" fill="none"/></pattern>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7dd3fc"/><stop offset=".5" stop-color="#f97316"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
+    <style>.sans{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.rail{stroke-dasharray:9 14;animation:rail 14s linear infinite}.node{animation:pulse 3.2s ease-in-out infinite;transform-origin:center}@keyframes rail{to{stroke-dashoffset:-460}}@keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}</style>
+  </defs>
+  <rect width="1120" height="310" rx="28" fill="url(#bg)"/>
+  <rect width="1120" height="310" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1118" height="308" rx="27" fill="none" stroke="#7dd3fc" stroke-opacity=".22"/>
+  <text x="62" y="70" class="sans" fill="#f8fafc" font-size="32" font-weight="820">Current focus</text>
+  <text x="62" y="100" class="mono" fill="#94a3b8" font-size="16">small tools, defensible notes, durable surfaces</text>
+  <g class="mono" font-size="17" fill="#d8e1ea">
+    <text x="112" y="152">Defensive research: practical documentation for networks and failure modes.</text>
+    <text x="112" y="202">Local-first tooling: utilities that keep working without fragile cloud dependencies.</text>
+    <text x="112" y="252">Publishing systems: readable repositories, editorial workflows, and visible technical work.</text>
+  </g>
+  <g>
+    <path d="M62 146H92" stroke="#7dd3fc" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M62 196H92" stroke="#a3e635" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M62 246H92" stroke="#f97316" stroke-width="2.2" stroke-linecap="round"/>
+    <circle class="node" cx="86" cy="146" r="5" fill="#7dd3fc"/>
+    <circle class="node" cx="86" cy="196" r="5" fill="#a3e635"/>
+    <circle class="node" cx="86" cy="246" r="5" fill="#f97316"/>
+  </g>
+  <path class="rail" d="M760 74H974C1010 74 998 130 1034 130H1060M760 206H946C984 206 974 252 1014 252H1060" stroke="url(#route)" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".72"/>
+  <circle cx="920" cy="154" r="46" fill="none" stroke="#c4b5fd" stroke-opacity=".24"/>
+  <circle cx="920" cy="154" r="24" fill="none" stroke="#7dd3fc" stroke-opacity=".35"/>
+  <circle class="node" cx="920" cy="154" r="6" fill="#f97316"/>
+</svg>

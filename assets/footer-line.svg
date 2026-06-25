@@ -1,24 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="96" viewBox="0 0 1400 96" role="img" aria-labelledby="title desc">
-  <title id="title">Signal Console OS footer line</title>
-  <desc id="desc">A minimal dark footer rule with small read, verify, patch, and ship ticks.</desc>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="Signal line footer">
   <defs>
-    <style>
-      .base{stroke:#2A383A;stroke-width:1.3;fill:none}
-      .amber{stroke:#B9832F;stroke-width:1.5;fill:none}
-      .olive{stroke:#91A35F;stroke-width:1.5;fill:none}
-      .copy{font:650 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.8px;fill:#8D9894}
-    </style>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#57F4D1"/><stop offset=".5" stop-color="#91A35F"/><stop offset="1" stop-color="#E4B54B"/></linearGradient>
   </defs>
-  <rect width="1400" height="96" rx="12" fill="#071012"/>
-  <path d="M40 52H392l28 20h210l24-20h706" class="base"/>
-  <path d="M40 52h124M420 72h92M654 52h118M1216 52h144" class="amber"/>
-  <path d="M218 52h34M548 72h42M842 52h44M1128 52h42" class="olive"/>
-  <circle cx="392" cy="52" r="4.5" fill="#B9832F"/>
-  <circle cx="654" cy="52" r="4.5" fill="#91A35F"/>
-  <circle cx="1216" cy="52" r="4.5" fill="#B9832F"/>
-  <text x="40" y="30" class="copy">READ</text>
-  <text x="170" y="30" class="copy">VERIFY</text>
-  <text x="332" y="30" class="copy">PATCH</text>
-  <text x="486" y="30" class="copy">SHIP</text>
-  <text x="1156" y="74" class="copy">SIGNAL CONSOLE OS</text>
+  <rect width="1200" height="70" rx="18" fill="#071012"/>
+  <path d="M40 35 H260 L300 50 H455 L486 35 H720 L760 22 H930 L960 35 H1160" fill="none" stroke="url(#g)" stroke-width="1.4" opacity=".8"/>
+  <g fill="#91A35F"><circle cx="260" cy="35" r="4"/><circle cx="486" cy="35" r="4"/><circle cx="760" cy="22" r="4"/></g>
+  <g fill="#E4B54B"><circle cx="930" cy="22" r="4"/><circle cx="960" cy="35" r="4"/></g>
 </svg>

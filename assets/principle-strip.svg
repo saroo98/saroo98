@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="230" viewBox="0 0 1400 230" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Console OS principle strip</title>
+  <desc id="desc">Three equal dark console modules for secure by design, automation-first, and evidence-driven principles.</desc>
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#2A383A" opacity="0.7"/>
+    </pattern>
+    <style>
+      .bg{fill:#071012}
+      .panel{fill:#0D171A;stroke:#2A383A;stroke-width:1.4}
+      .text{font:750 22px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1px;fill:#E8E1D2}
+      .small{font:600 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.2px;fill:#8D9894}
+      .line{fill:none;stroke:#2A383A;stroke-width:1.2}
+      .route{fill:none;stroke:#B9832F;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+      .olive{fill:none;stroke:#91A35F;stroke-width:1.8}
+      .node{fill:#91A35F}
+      .amber{fill:#B9832F}
+    </style>
+  </defs>
+  <rect width="1400" height="230" rx="18" class="bg"/>
+  <rect width="1400" height="230" rx="18" fill="url(#dots)" opacity="0.5"/>
+  <rect x="26" y="26" width="1348" height="178" rx="14" fill="none" stroke="#2A383A"/>
+  <g transform="translate(54 54)">
+    <rect x="0" y="0" width="400" height="122" rx="10" class="panel"/>
+    <circle cx="54" cy="61" r="31" class="olive"/>
+    <path d="M54 35l22 10v22c0 20-14 32-22 36-8-4-22-16-22-36V45z" class="route"/>
+    <text x="112" y="54" class="text">Secure by design</text>
+    <text x="112" y="82" class="small">boundaries before features</text>
+    <path d="M22 18h42M22 104h42M334 18h44M334 104h44" class="line"/>
+  </g>
+  <g transform="translate(500 54)">
+    <rect x="0" y="0" width="400" height="122" rx="10" class="panel"/>
+    <circle cx="54" cy="61" r="31" class="olive"/>
+    <path d="M34 61h40M54 41v40M42 49l24 24M66 49L42 73" class="route"/>
+    <circle cx="54" cy="61" r="7" class="node"/>
+    <text x="112" y="54" class="text">Automation-first</text>
+    <text x="112" y="82" class="small">repeatable by default</text>
+    <path d="M22 18h42M22 104h42M334 18h44M334 104h44" class="line"/>
+  </g>
+  <g transform="translate(946 54)">
+    <rect x="0" y="0" width="400" height="122" rx="10" class="panel"/>
+    <circle cx="54" cy="61" r="31" class="olive"/>
+    <path d="M30 62l16 16 34-39" class="route"/>
+    <circle cx="83" cy="38" r="5" class="amber"/>
+    <text x="112" y="54" class="text">Evidence-driven</text>
+    <text x="112" y="82" class="small">claims need proof</text>
+    <path d="M22 18h42M22 104h42M334 18h44M334 104h44" class="line"/>
+  </g>
+</svg>

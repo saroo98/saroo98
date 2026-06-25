@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="340" viewBox="0 0 1400 340" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Console OS collaboration console</title>
+  <desc id="desc">A quiet collaboration console with concise work-fit items and a right-side locator graphic.</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#2A383A" opacity="0.64"/>
+    </pattern>
+    <style>
+      .bg{fill:#071012}
+      .panel{fill:#0D171A;stroke:#2A383A;stroke-width:1.4}
+      .text{font:750 22px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1px;fill:#E8E1D2}
+      .small{font:650 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.2px;fill:#8D9894}
+      .micro{font:650 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.5px;fill:#8D9894}
+      .line{fill:none;stroke:#2A383A;stroke-width:1.2}
+      .route{fill:none;stroke:#B9832F;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+      .olive{fill:none;stroke:#91A35F;stroke-width:1.8}
+      .node{fill:#91A35F}
+      .amber{fill:#B9832F}
+    </style>
+  </defs>
+  <rect width="1400" height="340" rx="18" class="bg"/>
+  <rect width="1400" height="340" rx="18" fill="url(#dots)" opacity="0.44"/>
+  <rect x="26" y="26" width="1348" height="288" rx="14" fill="none" stroke="#2A383A"/>
+  <g transform="translate(58 58)">
+    <text x="0" y="0" class="micro">COLLABORATION CONSOLE</text>
+    <path d="M0 28h470" class="line"/>
+    <g transform="translate(0 58)">
+      <circle cx="12" cy="10" r="6" class="node"/>
+      <text x="36" y="17" class="text">Defensive application review and patching</text>
+    </g>
+    <g transform="translate(0 106)">
+      <circle cx="12" cy="10" r="6" class="node"/>
+      <text x="36" y="17" class="text">Automation for developer workflows</text>
+    </g>
+    <g transform="translate(0 154)">
+      <circle cx="12" cy="10" r="6" class="node"/>
+      <text x="36" y="17" class="text">Privacy-first local tooling</text>
+    </g>
+    <g transform="translate(0 202)">
+      <circle cx="12" cy="10" r="6" class="node"/>
+      <text x="36" y="17" class="text">Repository presentation work</text>
+    </g>
+  </g>
+  <g transform="translate(916 58)">
+    <rect x="0" y="0" width="382" height="226" rx="12" class="panel"/>
+    <circle cx="192" cy="114" r="82" fill="#071012" stroke="#2A383A"/>
+    <circle cx="192" cy="114" r="58" class="olive" opacity="0.72"/>
+    <circle cx="192" cy="114" r="32" fill="none" stroke="#B9832F" stroke-width="1.4"/>
+    <circle cx="192" cy="114" r="6" class="amber"/>
+    <path d="M40 114h88M256 114h86M192 32v56M192 140v56" class="line"/>
+    <path d="M64 178h82l24-24h44M238 74h56l22-22h38" class="route"/>
+    <circle cx="170" cy="154" r="5" class="node"/>
+    <circle cx="316" cy="52" r="5" class="node"/>
+    <text x="34" y="206" class="micro">QUIET ROUTE / PRACTICAL FIT</text>
+  </g>
+</svg>

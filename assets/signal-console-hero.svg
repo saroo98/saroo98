@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Console OS hero</title>
+  <desc id="desc">A dark graphite hero panel for Saro and saroo98 with central signal rings, route lines, diagnostic blocks, and muted olive and amber accents.</desc>
+  <defs>
+    <radialGradient id="radar" cx="62%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#132427"/>
+      <stop offset="0.56" stop-color="#0A1517"/>
+      <stop offset="1" stop-color="#071012"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1A282B" stroke-width="1"/>
+      <circle cx="3" cy="3" r="1" fill="#2A383A" opacity="0.72"/>
+    </pattern>
+    <style>
+      .bg{fill:#071012}
+      .panel{fill:#0D171A;stroke:#2A383A;stroke-width:1.4}
+      .soft{fill:#101D20;stroke:#1A282B;stroke-width:1.2}
+      .title{font:800 72px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px;fill:#E8E1D2}
+      .handle{font:700 25px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2.4px;fill:#91A35F}
+      .copy{font:600 20px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.6px;fill:#E8E1D2}
+      .small{font:650 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.6px;fill:#8D9894}
+      .micro{font:650 10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.6px;fill:#8D9894}
+      .route{fill:none;stroke:#B9832F;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+      .line{fill:none;stroke:#2A383A;stroke-width:1.2}
+      .soft-line{fill:none;stroke:#1A282B;stroke-width:1.1}
+      .olive{fill:none;stroke:#91A35F;stroke-width:1.8}
+      .amber-fill{fill:#B9832F}
+      .olive-fill{fill:#91A35F}
+    </style>
+  </defs>
+  <rect width="1400" height="620" rx="24" class="bg"/>
+  <rect width="1400" height="620" rx="24" fill="url(#radar)"/>
+  <rect width="1400" height="620" rx="24" fill="url(#grid)" opacity="0.52"/>
+  <rect x="26" y="26" width="1348" height="568" rx="18" fill="none" stroke="#2A383A"/>
+
+  <g transform="translate(58 74)">
+    <path d="M0 0h360M0 420h360M0 0v70M360 0v70M0 420v-70M360 420v-70" class="line"/>
+    <text x="0" y="70" class="title">Saro</text>
+    <text x="4" y="112" class="handle">saroo98</text>
+    <text x="4" y="166" class="copy">Security-minded builder focused on</text>
+    <text x="4" y="194" class="copy">practical software and defensive</text>
+    <text x="4" y="222" class="copy">research, with automation and</text>
+    <text x="4" y="250" class="copy">clean engineering systems.</text>
+    <rect x="4" y="260" width="278" height="46" rx="8" class="panel"/>
+    <circle cx="30" cy="283" r="7" class="olive-fill"/>
+    <text x="52" y="288" class="small">LOCAL SIGNAL</text>
+    <rect x="4" y="322" width="278" height="46" rx="8" class="panel"/>
+    <circle cx="30" cy="345" r="7" class="amber-fill"/>
+    <text x="52" y="350" class="small">DEFENSIVE BUILD</text>
+    <rect x="4" y="384" width="278" height="46" rx="8" class="panel"/>
+    <circle cx="30" cy="407" r="7" class="olive-fill"/>
+    <text x="52" y="412" class="small">EVIDENCE LOOP</text>
+  </g>
+
+  <g transform="translate(482 72)">
+    <rect x="0" y="0" width="848" height="462" rx="14" class="panel"/>
+    <rect x="22" y="22" width="804" height="418" rx="8" class="soft"/>
+    <path d="M22 230H826M424 22V440" class="soft-line"/>
+    <circle cx="424" cy="230" r="194" fill="none" stroke="#2A383A" stroke-width="1.3"/>
+    <circle cx="424" cy="230" r="146" fill="none" stroke="#2A383A" stroke-width="1.2" stroke-dasharray="3 8"/>
+    <circle cx="424" cy="230" r="92" fill="none" stroke="#1A282B" stroke-width="1.2"/>
+    <circle cx="424" cy="230" r="46" fill="none" stroke="#B9832F" stroke-width="1.2"/>
+    <circle cx="424" cy="230" r="7" class="olive-fill"/>
+    <path d="M86 98h150l34-34h92M102 336h210l28-28h128l24-24M604 104h92l28 28h72M590 338h104l40-40h78" class="route"/>
+    <path d="M242 154l64-64M304 346l58-58M568 134l44-44M566 324l60 60" class="line"/>
+    <circle cx="270" cy="64" r="4.5" class="amber-fill"/>
+    <circle cx="492" cy="284" r="4.5" class="olive-fill"/>
+    <circle cx="724" cy="132" r="4.5" class="olive-fill"/>
+    <circle cx="734" cy="298" r="4.5" class="amber-fill"/>
+    <rect x="44" y="58" width="172" height="82" rx="7" fill="#0D171A" stroke="#2A383A"/>
+    <text x="64" y="88" class="micro">TRACE</text>
+    <path d="M64 118l18-14 18 22 22-35 24 28 28-42" class="route"/>
+    <rect x="634" y="56" width="148" height="86" rx="8" fill="#0D171A" stroke="#2A383A"/>
+    <rect x="656" y="84" width="70" height="8" rx="4" fill="#2A383A"/>
+    <rect x="656" y="104" width="98" height="8" rx="4" fill="#2A383A"/>
+    <rect x="656" y="124" width="48" height="8" rx="4" fill="#B9832F"/>
+    <rect x="634" y="318" width="148" height="86" rx="8" fill="#0D171A" stroke="#2A383A"/>
+    <path d="M664 360h28M704 360h28M744 360h14" stroke="#B9832F" stroke-width="8" stroke-linecap="round"/>
+    <text x="646" y="394" class="micro">NO THIRD-PARTY WIDGETS</text>
+  </g>
+
+  <g transform="translate(58 546)">
+    <path d="M0 0h418l24 20h212l28-20h610" class="line"/>
+    <text x="0" y="-18" class="small">READ</text>
+    <text x="132" y="-18" class="small">VERIFY</text>
+    <text x="302" y="-18" class="small">PATCH</text>
+    <text x="464" y="-18" class="small">SHIP</text>
+    <path d="M660 0h78M790 0h44M1166 0h84" class="route"/>
+  </g>
+</svg>

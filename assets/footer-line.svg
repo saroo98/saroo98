@@ -1,21 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 90" role="img" aria-labelledby="title desc">
-  <title id="title">Signal console footer line</title>
-  <desc id="desc">A thin graphite console footer line with small amber and olive signal markers.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="96" viewBox="0 0 1400 96" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Console OS footer line</title>
+  <desc id="desc">A minimal dark footer rule with small read, verify, patch, and ship ticks.</desc>
   <defs>
     <style>
-      .base{stroke:#37464f;stroke-width:1.2;fill:none}
-      .amber{stroke:#b47a2b;stroke-width:1.4;fill:none}
-      .olive{stroke:#92a85a;stroke-width:1.4;fill:none}
-      .copy{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.6px;fill:#7f8c94}
+      .base{stroke:#2A383A;stroke-width:1.3;fill:none}
+      .amber{stroke:#B9832F;stroke-width:1.5;fill:none}
+      .olive{stroke:#91A35F;stroke-width:1.5;fill:none}
+      .copy{font:650 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.8px;fill:#8D9894}
     </style>
   </defs>
-  <rect width="1400" height="90" rx="10" fill="#071014"/>
-  <path d="M36 45H420l22 18h188l18-18h704" class="base"/>
-  <path d="M36 45h142M442 63h82M648 45h126M1216 45h136" class="amber"/>
-  <path d="M214 45h36M560 63h28M848 45h42M1132 45h46" class="olive"/>
-  <circle cx="420" cy="45" r="4" fill="#b47a2b"/>
-  <circle cx="648" cy="45" r="4" fill="#92a85a"/>
-  <circle cx="1216" cy="45" r="4" fill="#b47a2b"/>
-  <text x="36" y="28" class="copy">READ. VERIFY. PATCH. SHIP.</text>
-  <text x="1190" y="70" class="copy">SIGNAL CONSOLE</text>
+  <rect width="1400" height="96" rx="12" fill="#071012"/>
+  <path d="M40 52H392l28 20h210l24-20h706" class="base"/>
+  <path d="M40 52h124M420 72h92M654 52h118M1216 52h144" class="amber"/>
+  <path d="M218 52h34M548 72h42M842 52h44M1128 52h42" class="olive"/>
+  <circle cx="392" cy="52" r="4.5" fill="#B9832F"/>
+  <circle cx="654" cy="52" r="4.5" fill="#91A35F"/>
+  <circle cx="1216" cy="52" r="4.5" fill="#B9832F"/>
+  <text x="40" y="30" class="copy">READ</text>
+  <text x="170" y="30" class="copy">VERIFY</text>
+  <text x="332" y="30" class="copy">PATCH</text>
+  <text x="486" y="30" class="copy">SHIP</text>
+  <text x="1156" y="74" class="copy">SIGNAL CONSOLE OS</text>
 </svg>

@@ -1,92 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
-  <title id="title">Saro build map</title>
-  <desc id="desc">A self-contained system map connecting discovery, modeling, implementation, verification, patching, and documentation around an evidence core.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Console OS build map</title>
+  <desc id="desc">A dark mechanism diagram where discover, model, implement, verify, document, and patch route through a central evidence validator.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071014"/>
-      <stop offset="1" stop-color="#101a1f"/>
-    </linearGradient>
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="3" r="1.1" fill="#40505a" opacity="0.7"/>
+      <circle cx="3" cy="3" r="1.15" fill="#2A383A" opacity="0.8"/>
     </pattern>
     <style>
-      .title{font:700 28px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:3px;fill:#e3e9e4}
-      .node{font:700 19px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px;fill:#e3e9e4}
-      .copy{font:500 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.9px;fill:#8f9aa2}
-      .micro{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px;fill:#73818a}
-      .box{fill:#0b151a;stroke:#5b6870;stroke-width:1.2}
-      .accent-box{fill:#0b151a;stroke:#b47a2b;stroke-width:1.5}
-      .line{fill:none;stroke:#b47a2b;stroke-width:1.4;stroke-dasharray:8 8}
-      .solid{fill:none;stroke:#6e7d86;stroke-width:1.2}
-      .olive{fill:none;stroke:#92a85a;stroke-width:1.6}
-      .dot{fill:#b47a2b}
-      .olive-dot{fill:#92a85a}
+      .bg{fill:#071012}
+      .panel{fill:#0D171A;stroke:#2A383A;stroke-width:1.4}
+      .soft{fill:#101D20;stroke:#1A282B;stroke-width:1.2}
+      .text{font:700 20px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.6px;fill:#E8E1D2}
+      .small{font:600 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.1px;fill:#8D9894}
+      .micro{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px;fill:#8D9894}
+      .route{fill:none;stroke:#B9832F;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+      .review{fill:none;stroke:#B9832F;stroke-width:1.4;stroke-dasharray:9 9;stroke-linecap:round;stroke-linejoin:round}
+      .line{fill:none;stroke:#2A383A;stroke-width:1.3}
+      .olive{fill:none;stroke:#91A35F;stroke-width:1.8}
+      .node{fill:#91A35F}
+      .amber{fill:#B9832F}
     </style>
   </defs>
-
-  <rect width="1400" height="500" rx="18" fill="url(#bg)"/>
-  <rect width="1400" height="500" rx="18" fill="url(#dots)" opacity=".48"/>
-  <rect x="24" y="24" width="1352" height="452" rx="14" fill="none" stroke="#2f3f48"/>
-
-  <text x="52" y="76" class="title">BUILD MAP</text>
-  <text x="54" y="105" class="copy">Small changes, source-backed claims, clear review loops.</text>
-  <path d="M52 128H420" class="solid"/>
-  <path d="M980 74h190l34 34h130" class="solid"/>
-  <text x="1052" y="64" class="micro">STATIC LOCAL SVG</text>
-
-  <g transform="translate(590 174)">
-    <circle cx="110" cy="76" r="74" fill="#0a1418" stroke="#6e7d86"/>
-    <circle cx="110" cy="76" r="54" class="olive" opacity=".6"/>
-    <circle cx="110" cy="76" r="34" fill="none" stroke="#b47a2b"/>
-    <circle cx="110" cy="76" r="8" class="dot"/>
-    <text x="55" y="72" class="node">EVIDENCE</text>
-    <text x="40" y="98" class="copy">test / log / doc / code</text>
+  <rect width="1400" height="560" rx="20" class="bg"/>
+  <rect width="1400" height="560" rx="20" fill="url(#dots)" opacity="0.55"/>
+  <rect x="26" y="26" width="1348" height="508" rx="16" fill="none" stroke="#2A383A"/>
+  <path d="M54 78H420M980 78h248l28 28h90" class="line"/>
+  <text x="54" y="64" class="micro">BUILD MAP / SIGNAL CONSOLE OS</text>
+  <rect x="86" y="210" width="190" height="82" rx="9" class="panel"/>
+  <text x="114" y="252" class="text">DISCOVER</text>
+  <text x="114" y="274" class="small">read first</text>
+  <rect x="322" y="210" width="170" height="82" rx="9" class="soft"/>
+  <text x="350" y="252" class="text">MODEL</text>
+  <text x="350" y="274" class="small">boundaries</text>
+  <rect x="548" y="210" width="210" height="82" rx="9" class="panel"/>
+  <text x="576" y="252" class="text">IMPLEMENT</text>
+  <text x="576" y="274" class="small">small change</text>
+  <rect x="814" y="210" width="170" height="82" rx="9" class="soft"/>
+  <text x="842" y="252" class="text">VERIFY</text>
+  <text x="842" y="274" class="small">run checks</text>
+  <rect x="1030" y="210" width="190" height="82" rx="9" class="panel"/>
+  <text x="1058" y="252" class="text">DOCUMENT</text>
+  <text x="1058" y="274" class="small">make legible</text>
+  <rect x="1030" y="366" width="190" height="82" rx="9" class="panel"/>
+  <text x="1058" y="408" class="text">PATCH</text>
+  <text x="1058" y="430" class="small">reduce risk</text>
+  <path d="M276 251H322M492 251H548M758 251H814M984 251H1030" class="route"/>
+  <path d="M1125 292V366" class="route"/>
+  <path d="M1030 407H760Q724 407 724 371V310" class="review"/>
+  <path d="M1030 407H178Q138 407 138 367V292" class="review"/>
+  <g transform="translate(618 344)">
+    <circle cx="82" cy="74" r="78" fill="#0D171A" stroke="#2A383A"/>
+    <circle cx="82" cy="74" r="56" class="olive" opacity="0.72"/>
+    <circle cx="82" cy="74" r="34" fill="none" stroke="#B9832F" stroke-width="1.5"/>
+    <circle cx="82" cy="74" r="6" class="amber"/>
+    <text x="28" y="70" class="text">EVIDENCE</text>
+    <text x="18" y="98" class="small">validates every route</text>
   </g>
-
-  <g>
-    <rect x="96" y="166" width="210" height="84" rx="8" class="accent-box"/>
-    <text x="126" y="207" class="node">DISCOVER</text>
-    <text x="126" y="231" class="copy">read the system first</text>
-
-    <rect x="330" y="300" width="220" height="84" rx="8" class="box"/>
-    <text x="360" y="341" class="node">MODEL</text>
-    <text x="360" y="365" class="copy">threats and data flow</text>
-
-    <rect x="590" y="364" width="220" height="84" rx="8" class="accent-box"/>
-    <text x="620" y="405" class="node">IMPLEMENT</text>
-    <text x="620" y="429" class="copy">minimal coherent change</text>
-
-    <rect x="862" y="300" width="220" height="84" rx="8" class="box"/>
-    <text x="892" y="341" class="node">VERIFY</text>
-    <text x="892" y="365" class="copy">run narrow checks</text>
-
-    <rect x="1096" y="166" width="210" height="84" rx="8" class="accent-box"/>
-    <text x="1126" y="207" class="node">PATCH</text>
-    <text x="1126" y="231" class="copy">reduce real risk</text>
-
-    <rect x="590" y="62" width="220" height="84" rx="8" class="box"/>
-    <text x="620" y="103" class="node">DOCUMENT</text>
-    <text x="620" y="127" class="copy">make the work legible</text>
-  </g>
-
-  <path d="M306 208H522Q560 208 584 227" class="line"/>
-  <path d="M520 342H610Q638 342 660 323" class="line"/>
-  <path d="M810 406H906Q944 406 972 384" class="line"/>
-  <path d="M1082 342H1182Q1202 342 1202 318V250" class="line"/>
-  <path d="M1202 166V104Q1202 84 1182 84H810" class="line"/>
-  <path d="M590 104H408Q386 104 386 126V166" class="line"/>
-
-  <circle cx="522" cy="208" r="5" class="olive-dot"/>
-  <circle cx="660" cy="323" r="5" class="dot"/>
-  <circle cx="972" cy="384" r="5" class="olive-dot"/>
-  <circle cx="1202" cy="250" r="5" class="dot"/>
-  <circle cx="810" cy="104" r="5" class="olive-dot"/>
-  <circle cx="386" cy="166" r="5" class="dot"/>
-
-  <g opacity=".86">
-    <rect x="96" y="404" width="292" height="42" rx="7" fill="#0b151a" stroke="#35444c"/>
-    <text x="118" y="431" class="micro">NO PLACEHOLDER METRICS</text>
-    <rect x="1012" y="404" width="294" height="42" rx="7" fill="#0b151a" stroke="#35444c"/>
-    <text x="1034" y="431" class="micro">NO EXTERNAL WIDGET DEPENDENCY</text>
-  </g>
+  <path d="M700 344V292M642 394L492 292M758 394L814 292M778 416H1030M626 416H276" class="line"/>
+  <circle cx="700" cy="344" r="6" class="node"/>
+  <circle cx="642" cy="394" r="5" class="node"/>
+  <circle cx="758" cy="394" r="5" class="node"/>
+  <circle cx="778" cy="416" r="5" class="node"/>
+  <circle cx="626" cy="416" r="5" class="node"/>
+  <path d="M84 120h96v-28M84 120v56M1316 120h-96v-28M1316 120v56M84 492h96v28M84 492v-56M1316 492h-96v28M1316 492v-56" class="line"/>
+  <text x="54" y="512" class="micro">DASHED ROUTES ARE REVIEW LOOPS</text>
+  <text x="1084" y="512" class="micro">NO FAKE METRICS / NO WIDGETS</text>
 </svg>

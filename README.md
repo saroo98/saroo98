@@ -4,7 +4,8 @@ so the profile stays visually stable in GitHub light and dark mode.
 -->
 
 <p align="center">
-  <img src="./assets/saro-hero.svg" width="100%" alt="Saro / saroo98 profile hero: defensive research, local tooling, and publishing systems" />
+  <img src="./assets/saro-hero.svg" width="72%" alt="Saro / saroo98 profile hero: defensive research, local tooling, and publishing systems" />
+  <img src="./assets/1.jpg" width="24%" alt="Black and white illustrated profile artwork" />
 </p>
 
 <p align="center">
@@ -59,6 +60,10 @@ so the profile stays visually stable in GitHub light and dark mode.
 </p>
 
 <p align="center">
+  <img src="./assets/2.gif" width="150" alt="Small animated desk setup supporting the working style section" />
+</p>
+
+<p align="center">
   <img src="./assets/saro-divider.svg" width="100%" alt="" />
 </p>
 
@@ -70,4 +75,8 @@ so the profile stays visually stable in GitHub light and dark mode.
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=saroo98&label=PROFILE%20VIEWS&color=7dd3fc&style=flat-square" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="./assets/3.gif" width="74" alt="Tiny animated keyboard signature" />
 </p>
